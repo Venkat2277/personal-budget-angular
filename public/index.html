@@ -1,29 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget</title>
+    <title>Personal Budget Tracker</title>
     <meta name="description" content="A free personal budger app">
     <meta name="keywords" content="app free budget finance">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+
+<style>
+    /* This is Ally Change */
+    h1 {
+        font-size: 30px;
+    }
+    i {
+        color: #cc0081;
+    }
+    footer {
+        background-color: #3e8ec7;
+    }
+    svg {
+        width: 100x;
+        height: 100%;
+    }
+    path.slice{
+        stroke-width:2px;
+    }
+    polyline{
+        opacity: .3;
+        stroke: black;
+        stroke-width: 2px;
+        fill: none;
+
+    }
+</style>
 </head>
+</html>
 <body>
 
-<a href="#main" class="skip">Skip to content</a>
+    <a href="#main" class="skip">Skip to content</a>
 
     <nav>
         <ul>
-            <li><a href="/">Homepage</a></li>
-            <li><a href="/about.html">About</a></li>
+            <li><a href="/">Home</a></li>
+            <!-- This is a semantic change in the HTML page -->
+            <li><a href="/about.html">About Page</a></li>
             <li><a href="/login.html">Login</a></li>
             <li><a href="https://google.com">Google</a></li>
         </ul>
     </nav>
 
     <div class="hero">
-        <h1>Personal Budget</h1>
+        <h1>Personal Budget tracker</h1>
         <h2>A personal-budget management app</h2>
     </div>
 
@@ -33,11 +62,12 @@
 
             <article>
                 <h1>Stay on track</h1>
-                <p>
+                <!-- This is a semantic change in the HTML page -->
+                <h1>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
                     app will help you with that!
-                </p>
+                </h1>
             </article>
     
             <article>
@@ -64,7 +94,10 @@
             </article>
     
             <article>
-                <h1>Stay on track</h1>
+                <!-- This is a semantic change in the HTML page -->
+                <h3>Stay on track</h3>
+                <!-- This is SEO change -->
+                 <meta name="description" content="Guidance for staying on track">
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
@@ -73,6 +106,7 @@
             </article>
     
             <article>
+                
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
@@ -80,7 +114,8 @@
             </article>
     
             <article>
-                <h1>Results</h1>
+                <!-- This is SEO change -->
+                <h2><u>Results</u></h2>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
                     Also, they to live happier lives... since they expend without guilt or fear... 
@@ -89,7 +124,8 @@
             </article>
     
             <article>
-                <h1>Chart</h1>
+                <!-- This is SEO change -->
+                <h1><i>Chart</i></h1>
                 <p>
                     <canvas id="myChart" width="400" height="400"></canvas>
                 </p>
