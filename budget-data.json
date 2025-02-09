@@ -1,0 +1,9 @@
+{
+    "budget": [
+      { "category": "Rent", "amount": 275 },
+      { "category": "Grocery", "amount": 110 },
+      { "category": "Transport", "amount": 100 },
+      { "category": "Entertainment", "amount": 150 },
+      { "category": "Eat-out", "amount": 200 }
+    ]
+}
