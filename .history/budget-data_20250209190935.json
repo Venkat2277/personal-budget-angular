@@ -4,8 +4,6 @@
       { "category": "Grocery", "amount": 110 },
       { "category": "Transport", "amount": 100 },
       { "category": "Entertainment", "amount": 150 },
-      { "category": "Eat-out", "amount": 200 },
-      { "category": "water", "amount": 100 },
-      { "category": "Electricity", "amount": 200 }
+      { "category": "Eat-out", "amount": 200 }
     ]
 }

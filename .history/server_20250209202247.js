@@ -9,6 +9,13 @@ const port = 3000;
 
 app.use('/', express.static('public'));
 
+//app.get('/budget', (req, res) => {
+    //res.json(budget);
+//});
+
+//app.listen(port, () => {
+    //console.log(`API served at http://localhost:${port}`);
+//});
 app.get('/budget', (req, res) => {
     fs.readFile('budget-data.json', 'utf8', (err, data) => {
       if (err) {

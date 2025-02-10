@@ -154,8 +154,6 @@
                             '#ff6384',
                             '#36a2eb',
                             '#fd6b19',
-                            '#A52A2A',
-                            '#FFA500',
                         ]
                     }
                 ],
@@ -176,7 +174,7 @@
             .then(function (res) {
                 for (var i = 0; i < res.data.budget.length; i++) {
                     dataSource.datasets[0].data[i] = res.data.budget[i].amount;
-                    dataSource.labels[i] = res.data.budget[i].category;
+                    dataSource.labels[i] = res.data.myBudget[i].category;
                     createChart();
                 }
             });
