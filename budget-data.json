@@ -1,11 +1,32 @@
 {
-    "budget": [
-      { "category": "Rent", "amount": 275 },
-      { "category": "Grocery", "amount": 110 },
-      { "category": "Transport", "amount": 100 },
-      { "category": "Entertainment", "amount": 150 },
-      { "category": "Eat-out", "amount": 200 },
-      { "category": "water", "amount": 100 },
-      { "category": "Electricity", "amount": 200 }
-    ]
+  "myBudget": [
+      {
+          "title": "Eat out",
+          "budget": 33
+      },
+      {
+          "title": "Rent",
+          "budget": 50
+      },
+      {
+          "title": "Grocery",
+          "budget": 90
+      },
+      {
+          "title": "expenses",
+          "budget": 290
+      },
+      {
+          "title": "electricity",
+          "budget": 100
+      },
+      {
+          "title": "wifi",
+          "budget": 50
+      },
+      {
+          "title": "gas",
+          "budget": 20
+      }
+  ]
 }
